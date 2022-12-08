@@ -1,0 +1,113 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@367&display=swap');
+
+@layer base {
+  @font-face {
+    font-family: "AgodaSansStemHE";
+    src: url("fonts/WOFF/AgodaSansStem_W_He.woff") format("woff"),
+      url("fonts/WOFF2/AgodaSansStem_W_He.woff2") format("woff2");
+  }
+  @font-face {
+    font-family: "AgodaSansStemRG";
+    src: url("fonts/WOFF/AgodaSansStem_W_Rg.woff") format("woff"),
+      url("fonts/WOFF2/AgodaSansStem_W_Rg.woff2") format("woff2");
+  }
+  @font-face {
+    font-family: "AgodaSansStemlessHE";
+    src: url("fonts/WOFF/AgodaSansStemless_W_He.woff") format("woff"),
+      url("fonts/WOFF2/AgodaSansStemless_W_He.woff2") format("woff2");
+  }
+  @font-face {
+    font-family: "AgodaSansStemlessRG";
+    src: url("fonts/WOFF/AgodaSansStemless_W_Rg.woff") format("woff"),
+      url("fonts/WOFF2/AgodaSansStemless_W_Rg.woff2") format("woff2");
+  }
+  @font-face {
+    font-family: "AgodaSansTextBD";
+    src: url("fonts/WOFF/AgodaSansText_W_Bd.woff") format("woff"),
+      url("fonts/WOFF2/AgodaSansText_W_Bd.woff2") format("woff2");
+  }
+  @font-face {
+    font-family: "AgodaSansTextHE";
+    src: url("fonts/WOFF/AgodaSansText_W_He.woff") format("woff"),
+      url("fonts/WOFF2/AgodaSansText_W_He.woff2") format("woff2");
+  }
+  @font-face {
+    font-family: "AgodaSansTextRG";
+    src: url("fonts/WOFF/AgodaSansText_W_Rg.woff") format("woff"),
+      url("fonts/WOFF2/AgodaSansText_W_Rg.woff2") format("woff2");
+  }
+}
+
+.AgodaSansStemHE{
+    font-family:  'AgodaSansStemHE';
+}
+.AgodaSansStemRG{
+    font-family:  'AgodaSansStemRG';
+}
+.AgodaSansStemlessHE{
+    font-family:  'AgodaSansStemlessHE';
+}
+.AgodaSansStemlessRG{
+    font-family:  'AgodaSansStemlessRG';
+}
+.AgodaSansTextBD{
+    font-family:  'AgodaSansTextBD';
+}
+.AgodaSansTextHE{
+    font-family:  'AgodaSansTextHE';
+}
+.AgodaSansTextRG{
+    font-family:  'AgodaSansTextRG';
+}
+
+.carouselController {
+  width: 42.68px;
+  height: 2px;
+  background: rgba(255, 255, 255, 0.5);
+  padding: 0;
+}
+
+.carouselActive {
+  background: #fffefe;
+}
+
+.section2 {
+  background-color: #c3c3cd;
+  width: 42.68px;
+  height: 2px;
+  padding: 0;
+}
+
+.section2Active {
+  background-color: #5a6783;
+}
+
+td {
+  padding: 15px;
+  border-bottom: 1px solid rgba(99, 98, 98, 0.116);
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.outside {
+  position: absolute;
+  right: -100px;
+  top: 50px;
+}
+
+.stroke{
+    background-color: #737373;
+    width: 30px;
+    height: 5px; 
+    margin: 2px;
+    border-radius: 20px;
+}
